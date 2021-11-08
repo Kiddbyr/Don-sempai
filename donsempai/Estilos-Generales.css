@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+
+*{
+    padding:0;			
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    background-image: url("imagenes/casa-kame-de-dragon-ball-3963.jpg");
+    background-repeat: no-repeat;
+    background-size: 1720px;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+
+.Sub{
+    font-size: 25px;
+    padding: auto;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-weight: bolder;
+    color: black;
+    cursor: none;
+
+}
+.Logo{
+    display: block;
+    padding: 10;
+    margin:auto;
+    box-shadow: #000;
+    width: 520px;
+    cursor: none;
+    
+
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    box-shadow: red;
+
+}
+
+.Navegacion{
+   width: 1000px;
+   margin: 30px auto;
+  /*  background: rgb(250, 5, 5); */
+   box-sizing: border-box;
+}
+.Navegacion ul{
+    list-style: none;
+}
+.Navegacion ul li{
+    text-align: center;
+}
+.Menu{
+    text-align: center;
+    
+
+}
+.Menu > li{
+     position: relative; 
+    display: inline-block;
+}
+.Menu > li > a{
+    display: block; 
+    padding: 15px 20px;
+    margin-left: 25px;
+    color:red;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.Menu li a:hover{
+     color: rgb(217,235,9);
+    color: rgba(red,red,red, red);
+   
+    transition: all 0.2s ease;
+    
+
+}
+
+.Submenu{
+    position: absolute;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    visibility: hidden;
+
+}
+
+.Submenu li a{
+    display: block;
+    
+    padding: 15px;
+    color:red;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-items: center;
+}
+
+.Menu li:hover .Submenu{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.parrafos{
+
+    padding: 120px;
+    text-align: left;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
+    
+}
+
+
+p{
+    text-align: left;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
+    
+}
+
+.akira-text{
+   
+    margin-bottom: 50px;
+    padding: 25%;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-justify: auto;
+   
+}
+
+.akira{
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+    align-items: center;
+    
+}
+
+.akira2{
+    padding: 10px;
+    margin: 120px;
+    width: 420px;
+    float: left;
+
+}
+
+.Akira-juntos{
+    justify-self: normal;
+    align-items: left;
+}
+
+
+
+.Titulo {
+    margin-top: 150px;
+    font-size: 35px;
+    font-family: serif;
+    border: black;
+    color: red;
+    box-shadow: black;
+}
+
+aside {
+    padding: auto;
+    float: right;
+    border-color: black;
+    text-align: center;
+    border: black solid 5px;
+    font-size: 16px;
+}
+
+.texto{
+    float: left;
+}
+
+figcaption{
+    font-size: 35px;
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer{
+    margin-top: 250px;
+    
+    padding: auto;
+}
+/* h1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 400px;
+}
+ */
+ 
+
+.goku{
+     
+    margin:10px; 
+    border: 5px solid black; 
+    width: 200px;
+    /* align-self: center; */
+    /* align-items: center; */
+    /* justify-items: center;  */
+    
+}
+
+.vegetta{
+    
+    
+    margin: 10px; 
+    border: 5px solid black; 
+    float: right; 
+    width: 200px; 
+}
+   
+
+.gohan{
+    
+    margin: 10px; 
+    border: 5px solid black; 
+    float: left; 
+    width: 250px; 
+}
+
+.Poster{
+    text-align: center;
+    }
+
+   /*  * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: #EFEFEF;
+        color: #363639;
+        font-family: 'Work Sans', sans-serif;
+    }
+     */
+    
+    
+    /* ? ----- PORTADA ----- */
+    .portada {
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition: .5s ease-out all;
+    }
+    
+    .portada.oculta {
+        transform: translateY(100%);
+    }
+    
+    .portada .header {
+        margin-bottom: 100px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    .portada .header .logotipo {
+        font-size: 50px;
+        font-size: 900;
+        margin-bottom: 20px;
+    }
+    
+    .portada .header .mensaje {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    
+    
+    /* ? ----- MAIN ----- */
+    main {
+        max-width: 1000px;
+        margin: auto;
+        width: 90%;
+        padding: 60px 0;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+    }
+    
+    
+    
+    /* ? ----- Cuenta Regresiva ----- */
+    #cuenta {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        align-content: center;
+    }
+    
+    .simply-section {
+        
+        width: 180px;
+        height: 180px;
+        margin: 0 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .simply-amount {
+        display: block;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .simply-word {
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    
+    /* ? ---------------------------- */
+    
+    
+    
+    /* ? ----- REDES SOCIALES ----- */
+    .redes-sociales .btn-red-social {
+        padding: 15px 0;
+        display: inline-block;
+        min-width: 45px;
+        border-radius: 10px;
+        font-size: 50px;
+        margin: 0 20px;
+        transition: .3s ease all;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .redes-sociales .btn-red-social:hover {
+        box-shadow: 0px 0px 50px 10px rgba(0,0,0,.15);
+    }

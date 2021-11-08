@@ -1,0 +1,265 @@
+/* Estilos formulario de contacto */
+
+footer{
+
+    
+    color: red;
+    font-family:'Quicksand', sans-serif;
+    padding: 1.5em;
+}
+
+a{
+
+    justify-content: left;
+
+}
+.content{
+    max-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+
+}
+
+.Logo{
+    text-align: center;
+    font-size: 2em;
+}
+
+.Contacto-wrapper{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.Contacto-wrapper > *{
+    padding: 1em;
+}
+
+
+
+.contacto-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto-form form .block{
+
+    grid-column: 1 / 3;
+}
+
+.contacto-form form p{
+    margin: 0;
+    padding: 1em;
+    
+
+}
+
+.contacto-form form input,
+.contacto-form form textarea{
+
+   width: 100%; 
+   padding: .7em;
+   border: none;
+   background: none;
+   outline: 0;
+   color: white;
+   border-bottom: 1px solid #d6d6d6;
+}
+
+.contacto-form form button{
+color: rgba(255,255,255,0.9);
+font-size: 20px;
+font-weight: 500;
+padding: 0.5em 1.2em;
+background: red;
+border: 2px solid;
+border-color: #e1e974;
+position: relative;
+}
+.contacto-form form button:hover{
+    color: rgba(red,red,red, red);
+    box-shadow: 0 4px 16px rgba(49,138,172,1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+
+/* 
+.contacto-form form button:hover
+.contacto-form form button:focus{
+
+    background: red;
+    color: white;
+    transition: background-color 1s ease-out;
+    outline: 0;
+} */
+.contacto-info h4,
+.contacto-info ul{
+text-align: center;
+margin: 0 0 1rem 0;
+
+}
+
+.contacto-info p{
+    margin:0 0 1rem 0;
+    font-size: 18px;
+}
+
+.contacto-info ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.contacto-info ul li{
+    padding: .3em;
+}
+
+/* Pantalla grande */
+
+/* @media(min-width: 720px) */
+/* 
+body{
+    padding: 0 4rem;
+
+} */
+
+.Contacto-wrapper{
+    display: grid;
+    grid-template-columns:  2fr 1fr;
+
+}
+
+.Contacto-wrapper >* {
+    padding: 2em;
+}
+
+
+/* Formulario de registro */
+
+
+
+.Form-registro{
+
+    width:  400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 7px 13px 37px red;
+}
+
+.Form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #24303c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.Form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 16px;
+
+}
+
+.Form-registro a{
+    color: black;
+    text-decoration:none;
+}
+
+.Form-registro a:hover{
+    color: white;
+    text-decoration:none;
+}
+
+.Form-registro .botons{
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 16px;
+    color: white;
+    margin: 16px 0;
+
+}
+
+.Form-registro .botons:hover{
+    color: rgba(red,red,red, red);
+    box-shadow: 0 4px 16px rgb(204, 2, 2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+
+
+
+/* Estilos para login */
+
+.Form-Login{
+
+    width:  400px;
+    
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 110px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    box-shadow: 7px 13px 37px red;
+    font-weight: bolder;
+}
+
+.Form-Login h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.Form-Login p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 16px;
+
+}
+
+.Form-Login .botons{
+    width: 100%;
+    background: #ff3503;
+    border: none;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18PX;
+
+}
+.Form-Login .botons:hover{
+    color: rgba(red,red,red, red);
+    box-shadow: 0 4px 16px rgb(204, 2, 2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+
+.Form-Login a{
+    color: black;
+    text-decoration:none;
+}
+.Form-Login a:hover{
+    color:red;
+    text-decoration:none;
+}
